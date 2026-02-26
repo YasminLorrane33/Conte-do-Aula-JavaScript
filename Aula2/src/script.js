@@ -74,4 +74,19 @@ console.log(nulo);
 
 //symbol
 let y = Symbol();
-console.log();
+console.log(y);
+
+//Exemplos de typeof
+let stringTipo = "300";
+let numberTipo = 300;
+
+// const tipoDado = typeof stringTipo;
+const tipoDado = typeof stringTipo;
+
+console.log(tipoDado)
+
+// Exemplos De Boolean
+let cinco = 5;
+let comparacao = cinco == 8;
+
+console.log(comparacao)
