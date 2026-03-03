@@ -17,5 +17,22 @@ switch (opcoes) {
     break;
     
     case "-":
-        alert("O resultado da operação é: " + (numero1 - numero2))
+        alert("O resultado da operação é: " + (numero1 - numero2));
+        break;
+
+    case "*":
+        alert("O resultado da operação é: " + (numero1 * numero2));
+        break;
+
+    case "/":
+        if (numero2 === 0) {
+            alert("Não é possível dividir por 0. Tente novamente!");
+        } else {
+            alert("O resultado da operação é: " + (numero1 / numero2));
+        }
+        break;
+
+        default:
+            alert("Informe um valor válido!");
+            window.location.reload();
 }
