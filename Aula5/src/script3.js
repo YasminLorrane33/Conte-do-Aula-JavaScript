@@ -1,5 +1,6 @@
 // Introdução Laços de Repetição
 
+
 // let valor = 20;
 
 // for (valor = 0; valor > 10; valor++){
@@ -20,4 +21,4 @@
 do {
     console.log("O valor da acumuladora é de: " + acumuladora);
     acumuladora2 = acumuladora2 + 1;
-} while (acumuladora2 <10)
+} while (acumuladora2 <=10)
