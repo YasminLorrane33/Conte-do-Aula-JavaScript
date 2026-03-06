@@ -23,7 +23,7 @@ console.log(texto5);
 // Exemplo de template string
 let nome = "Yasmin Lorrane"
 let idade = 18;
-let frase = `Meu nome é ${nome} e tenh0 ${idade} anos.`;
+let frase = `Meu nome é ${nome} e tenho ${idade} anos.`;
 
 let frase2 = "Meu nome é " + nome + " e tenho" + idade + " anos.";
 
